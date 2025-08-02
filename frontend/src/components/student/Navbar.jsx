@@ -1,9 +1,10 @@
 import React from 'react';
+import {assets} from "../../assets/assets.js"
 
 const Navber = () => {
   return (
     <div>
-      Navbar
+      {/* <img src={assets.logo} alt='Logo' className='w-28' /> */}
     </div>
   );
 }

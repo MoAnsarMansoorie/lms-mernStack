@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 export const AppContext = createContext();
 
-export const AppContextProvider = () => {
+export const AppContextProvider = ({children}) => {
     const value = {
         // Add your context values here
         
